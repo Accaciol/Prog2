@@ -17,6 +17,7 @@ public class Cofrinho {
 	
 	public int quantidadeDeMoedas() {
 		int QuantidadeMoedas = Cofrinho.listaMoedas.size();
+		//asdasd
 		
 		return QuantidadeMoedas;
 	}
@@ -32,6 +33,8 @@ public class Cofrinho {
 			
 			if (maior < valorNovo) {
 				maior = valorNovo;
+				
+				//Teste merge
 			}
 		}
 
@@ -41,6 +44,10 @@ public class Cofrinho {
 	
 	public double totalArmazenado() {
 		double total = 0;
+		//Teste merge
+		String teste ="asdasd";
+		
+		teste.concat(teste);
 		
 		for (Moeda moeda : listaMoedas) {
 			total =+ moeda.getValor();
